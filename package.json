@@ -1,0 +1,13 @@
+{
+  "name": "secure-api",
+  "version": "1.0.0",
+  "description": "API segura con certificados SSL/TLS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "generate-certs": "bash generate-certs.sh"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+} 
