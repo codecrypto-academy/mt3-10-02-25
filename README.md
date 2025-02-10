@@ -25,6 +25,9 @@ https://www.npmjs.com/package/@noble/ed25519
 #### 1.2.4. SHA3-512
 
 ### 1.3. Keccak
+
+privatekey --> Keccak-256(publickey).slice(20) --> address
+
 #### 1.3.1. Keccak-224
 #### 1.3.2. Keccak-256
 #### 1.3.3. Keccak-384
@@ -95,4 +98,10 @@ https://neuromancer.sk/std/secg/secp256k1
 #### 3.3.1. ECDH-P256
 #### 3.3.2. ECDH-P384
 #### 3.3.3. ECDH-P521
+
+
+prompt para la ia
+==================
+
+Un script que me genere una ca y un certificado x509. Tambien quiero un certificado de servidor para el dominio www.bbva.com y la clave privada del servidor. Haz un certificado para conectarme desde el navegador. Por otro lado voy a hacer una aplicacion express , un api que este configurada con la ca y con el certificado de servidor. Usaremos el certificado de la ca. Usaremos criptografia de curvas elipticas. genera todos los ficheros necesarios.  
 
